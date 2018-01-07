@@ -1,0 +1,9 @@
+html {
+  line-height: 1.5;
+  font-family: Georgia, sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
