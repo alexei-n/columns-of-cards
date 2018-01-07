@@ -1,6 +1,6 @@
 html {
   line-height: 1.5;
-  font-family: Georgia, sans-serif;
+  font-family: Open Sans, sans-serif;
   box-sizing: border-box;
 }
 
@@ -8,11 +8,18 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  max-width: 100px;
+body {
+  margin:0;
 }
 
-div a {
+img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
   background-color: #333;
   color: #f2f2f2;
   padding: .4em .75em .3em;
@@ -25,13 +32,46 @@ div a {
 
 .btn-small {
   font-size: .875rem;
+  margin: 0 auto 1.5rem;
+  float: left;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 .link-card {
   display: inline-block;
-  max-width: 300px;
+  width: 25%;
 }
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: .875rem;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+  border-left: 2px;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
 }
