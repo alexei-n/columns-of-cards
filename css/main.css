@@ -1,6 +1,6 @@
 html {
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
 
@@ -61,10 +61,6 @@ h3 {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
-
 .card1 {
   background-color: #e2e2e2;
   float: left;
@@ -85,6 +81,6 @@ p {
   float: right;
 }
 
-section div {
-  display: block;
+section {
+  margin: .75em;
 }
