@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1em;
 }
 
 img {
@@ -44,6 +44,7 @@ img {
 .link-card {
   display: inline-block;
   max-width: 25%;
+  height: 400px;
 }
 
 h1 {
